@@ -38,7 +38,7 @@ class VerificationMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.auth.verification-mail',
+            view: 'emails.Auth.verification-mail',
         );
     }
 

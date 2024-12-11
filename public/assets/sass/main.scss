@@ -1184,7 +1184,6 @@ form select.error:focus {
 }
 
 .bg-error {
-  background-image: url("../images/auth/error-bg.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -1238,7 +1237,6 @@ form select.error:focus {
 /* authentication */
 
 .bg-login {
-  background-image: url(../images/auth/bg-login.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1246,17 +1244,14 @@ form select.error:focus {
 
 .bg-register {
   @extend .bg-login;
-  background-image: url(../images/auth/bg-register.png);
 }
 
 .bg-forgot-password {
   @extend .bg-login;
-  background-image: url(../images/auth/bg-forgot.png);
 }
 
 .bg-reset-password {
   @extend .bg-login;
-  background-image: url(../images/auth/bg-reset-password.png);
 }
 
 
